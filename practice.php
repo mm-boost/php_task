@@ -36,3 +36,12 @@ $year2018_calendar = [
 // 12月を表示する
 $month = "December";
 echo $year2018_calendar [$month] . "\n";
+
+
+//$nameに自分の名前（Muto＿Manami）を代入する
+$name = Muto_Manami;   //if文で $name が自分の名前だったら 「私は Muto＿Manami です」、もし違ったら「Muto＿Manamiではありません」と表示する
+if ($name) {
+  echo "私は Muto＿Manami です";
+} else {
+  echo "Muto＿Manamiではありません";
+}
